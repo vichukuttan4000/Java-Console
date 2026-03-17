@@ -108,7 +108,8 @@ public class AtmOops {
             }
             catch(Exception e){
                 System.out.println("Error occured : Invalid input");
-                break;
+                sc.nextLine();
+                continue;
             }
         }
         System.out.println("Thank you for using ATM");
